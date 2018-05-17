@@ -1,5 +1,5 @@
 try:
-    n=int(input())
-    print"yes"
+    n=int(raw_input())
+    print"Yes"
 except:
-    print"no"
+    print"No"
