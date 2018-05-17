@@ -2,7 +2,7 @@ try:
     n=int(raw_input())
     a=int(raw_input())
     d=int(raw_input())
-    if(1<=n and a and d <=100000):
+    if(1<=n<=100000):
         currentvalue=a
         su=a
         for i in range (1,n):
